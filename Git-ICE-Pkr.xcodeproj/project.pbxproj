@@ -15,6 +15,7 @@
 		1F631CC21DDA716B003CA5E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F631CC01DDA716B003CA5E0 /* LaunchScreen.storyboard */; };
 		1F631CCD1DDA716B003CA5E0 /* Git_ICE_PkrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F631CCC1DDA716B003CA5E0 /* Git_ICE_PkrTests.swift */; };
 		1F631CD81DDA716B003CA5E0 /* Git_ICE_PkrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F631CD71DDA716B003CA5E0 /* Git_ICE_PkrUITests.swift */; };
+		1F631CE61DDA74E8003CA5E0 /* SearchVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F631CE51DDA74E8003CA5E0 /* SearchVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1F631CD31DDA716B003CA5E0 /* Git-ICE-PkrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git-ICE-PkrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F631CD71DDA716B003CA5E0 /* Git_ICE_PkrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_ICE_PkrUITests.swift; sourceTree = "<group>"; };
 		1F631CD91DDA716B003CA5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F631CE51DDA74E8003CA5E0 /* SearchVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1F631CA91DDA716B003CA5E0 = {
 			isa = PBXGroup;
 			children = (
+				1F631CE51DDA74E8003CA5E0 /* SearchVCViewController.swift */,
 				1F631CB41DDA716B003CA5E0 /* Git-ICE-Pkr */,
 				1F631CCB1DDA716B003CA5E0 /* Git-ICE-PkrTests */,
 				1F631CD61DDA716B003CA5E0 /* Git-ICE-PkrUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F631CBA1DDA716B003CA5E0 /* SecondViewController.swift in Sources */,
+				1F631CE61DDA74E8003CA5E0 /* SearchVCViewController.swift in Sources */,
 				1F631CB61DDA716B003CA5E0 /* AppDelegate.swift in Sources */,
 				1F631CB81DDA716B003CA5E0 /* FirstViewController.swift in Sources */,
 			);
